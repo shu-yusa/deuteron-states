@@ -1,0 +1,3 @@
+platex deuteron.tex
+dvipdf deuteron.dvi
+acroread8 deuteron.pdf

@@ -1,0 +1,29 @@
+10, 2,30
+20.0d0, 1.0d-6
+2
+
+
+*** input parameters ***************************************************
+Nbase, step, Nopt
+hw, eps
+thread
+------------------------------------------------------------------------
+Nbase   : the number of basis in the initial step, integer
+step    : increment of the basis, integer
+Nopt    : the number at which we optimize the omega, integer
+hw      : Frequency omega of the h.o.. It can be changed by 
+          optimization. real(8)
+epsr    : Torrerable relative error of the energy, real(8)
+thread  : The number of thread in the parallelization. It is read 
+          only if we compile the program with parallelization option.
+          integer
+------------------------------------------------------------------------
+Note :
+If you optimize the omega with relatively few basis, the optimized 
+omega may not be optimal for the large number of basis.
+If Nopt is large, the optimization will be time consuming.
+Reasonable Nopt will be 10 ~ 30.
+If you do not want to optimize the omega, set Nopt a large 
+number, say, 500.
+************************************************************************
+

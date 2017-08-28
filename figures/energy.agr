@@ -1,0 +1,838 @@
+# Grace project file
+#
+@version 50121
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 8 to "Courier", "Courier"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 12 to "Symbol", "Symbol"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Sun May 10 20:28:01 2009"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 0, -3, 150, 0.5
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.200000, 0.150000, 1.150000, 0.850000
+@    title "Convergence of the energy"
+@    title font 0
+@    title size 2.000000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.500000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label "Number of the basis"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 2.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 50
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset spec
+@    xaxis  ticklabel offset 0.000000 , 0.020000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.910000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "E [MeV]"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 2.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 0.5
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place both
+@    yaxis  ticklabel offset spec
+@    yaxis  ticklabel offset 0.000000 , 0.020000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 2.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.85, 0.6
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.500000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xy
+@    s0 symbol 0
+@    s0 symbol size 1.000000
+@    s0 symbol color 1
+@    s0 symbol pattern 1
+@    s0 symbol fill color 1
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 1
+@    s0 line linewidth 1.5
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 1
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "/net/keyaki/home/yusa/Work/Physics/Nuclear_Phys/Structure/deuteron/ho_basis/energy1.dat"
+@    s0 legend  "MT-V"
+@    s1 hidden false
+@    s1 type xy
+@    s1 symbol 0
+@    s1 symbol size 1.000000
+@    s1 symbol color 2
+@    s1 symbol pattern 1
+@    s1 symbol fill color 2
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 1
+@    s1 line linestyle 1
+@    s1 line linewidth 1.5
+@    s1 line color 2
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 2
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "/net/keyaki/home/yusa/Work/Physics/Nuclear_Phys/Structure/deuteron/ho_basis/energy2.dat"
+@    s1 legend  "Volkov"
+@    s2 hidden false
+@    s2 type xy
+@    s2 symbol 0
+@    s2 symbol size 1.000000
+@    s2 symbol color 3
+@    s2 symbol pattern 1
+@    s2 symbol fill color 3
+@    s2 symbol fill pattern 0
+@    s2 symbol linewidth 1.0
+@    s2 symbol linestyle 1
+@    s2 symbol char 65
+@    s2 symbol char font 0
+@    s2 symbol skip 0
+@    s2 line type 1
+@    s2 line linestyle 1
+@    s2 line linewidth 1.5
+@    s2 line color 3
+@    s2 line pattern 1
+@    s2 baseline type 0
+@    s2 baseline off
+@    s2 dropline off
+@    s2 fill type 0
+@    s2 fill rule 0
+@    s2 fill color 1
+@    s2 fill pattern 1
+@    s2 avalue off
+@    s2 avalue type 2
+@    s2 avalue char size 1.000000
+@    s2 avalue font 0
+@    s2 avalue color 1
+@    s2 avalue rot 0
+@    s2 avalue format general
+@    s2 avalue prec 3
+@    s2 avalue prepend ""
+@    s2 avalue append ""
+@    s2 avalue offset 0.000000 , 0.000000
+@    s2 errorbar on
+@    s2 errorbar place both
+@    s2 errorbar color 3
+@    s2 errorbar pattern 1
+@    s2 errorbar size 1.000000
+@    s2 errorbar linewidth 1.0
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser linewidth 1.0
+@    s2 errorbar riser linestyle 1
+@    s2 errorbar riser clip off
+@    s2 errorbar riser clip length 0.100000
+@    s2 comment "/net/keyaki/home/yusa/Work/Physics/Nuclear_Phys/Structure/deuteron/ho_basis/energy3.dat"
+@    s2 legend  "ATS3"
+@    s3 hidden false
+@    s3 type xy
+@    s3 symbol 0
+@    s3 symbol size 1.000000
+@    s3 symbol color 4
+@    s3 symbol pattern 1
+@    s3 symbol fill color 4
+@    s3 symbol fill pattern 0
+@    s3 symbol linewidth 1.0
+@    s3 symbol linestyle 1
+@    s3 symbol char 65
+@    s3 symbol char font 0
+@    s3 symbol skip 0
+@    s3 line type 1
+@    s3 line linestyle 1
+@    s3 line linewidth 1.5
+@    s3 line color 4
+@    s3 line pattern 1
+@    s3 baseline type 0
+@    s3 baseline off
+@    s3 dropline off
+@    s3 fill type 0
+@    s3 fill rule 0
+@    s3 fill color 1
+@    s3 fill pattern 1
+@    s3 avalue off
+@    s3 avalue type 2
+@    s3 avalue char size 1.000000
+@    s3 avalue font 0
+@    s3 avalue color 1
+@    s3 avalue rot 0
+@    s3 avalue format general
+@    s3 avalue prec 3
+@    s3 avalue prepend ""
+@    s3 avalue append ""
+@    s3 avalue offset 0.000000 , 0.000000
+@    s3 errorbar on
+@    s3 errorbar place both
+@    s3 errorbar color 4
+@    s3 errorbar pattern 1
+@    s3 errorbar size 1.000000
+@    s3 errorbar linewidth 1.0
+@    s3 errorbar linestyle 1
+@    s3 errorbar riser linewidth 1.0
+@    s3 errorbar riser linestyle 1
+@    s3 errorbar riser clip off
+@    s3 errorbar riser clip length 0.100000
+@    s3 comment "/net/keyaki/home/yusa/Work/Physics/Nuclear_Phys/Structure/deuteron/ho_basis/energy4.dat"
+@    s3 legend  "Minnesota"
+@target G0.S0
+@type xy
+10 0.4467876
+12 0.25825739
+14 0.12029787
+16 0.01622143
+18 -0.064003562
+20 -0.12684688
+22 -0.17670092
+24 -0.21666336
+26 -0.24898192
+28 -0.2753233
+30 -0.31569566
+32 -0.33074284
+34 -0.34307892
+36 -0.35327864
+38 -0.36177823
+40 -0.36891246
+42 -0.3749408
+44 -0.38006632
+46 -0.38444933
+48 -0.38821743
+50 -0.391473
+52 -0.39429879
+54 -0.39676212
+56 -0.39891814
+58 -0.40081229
+60 -0.40248226
+62 -0.40395943
+64 -0.40527013
+66 -0.40643649
+68 -0.40747727
+70 -0.40840836
+72 -0.40924337
+74 -0.40999392
+76 -0.41067002
+78 -0.4112803
+80 -0.41183224
+82 -0.41233233
+84 -0.41278624
+86 -0.4131989
+88 -0.41357466
+90 -0.41391733
+92 -0.41423027
+94 -0.41451643
+96 -0.41477845
+98 -0.41501866
+100 -0.41523913
+102 -0.41544171
+104 -0.41562805
+106 -0.41579962
+108 -0.41595774
+110 -0.41610361
+112 -0.4162383
+114 -0.41636275
+116 -0.41647785
+118 -0.41658438
+120 -0.41668305
+122 -0.4167745
+124 -0.41685932
+126 -0.41693803
+128 -0.41701113
+130 -0.41707905
+132 -0.41714219
+134 -0.41720091
+136 -0.41725557
+138 -0.41730645
+140 -0.41735385
+142 -0.41739801
+144 -0.41743919
+146 -0.41747758
+148 -0.4175134
+150 -0.41754683
+152 -0.41757804
+154 -0.41760718
+156 -0.4176344
+158 -0.41765982
+160 -0.41768359
+162 -0.4177058
+164 -0.41772657
+166 -0.41774598
+168 -0.41776415
+170 -0.41778113
+172 -0.41779702
+174 -0.41781186
+176 -0.41782557
+178 -0.41783741
+180 -0.41784491
+182 -0.41784697
+184 -0.41784976
+186 -0.41785518
+188 -0.4178603
+190 -0.41786368
+192 -0.41786673
+194 -0.4178694
+196 -0.41787058
+198 -0.4178719
+200 -0.41787391
+&
+@target G0.S1
+@type xy
+10 -0.34371556
+12 -0.40464045
+14 -0.44274951
+16 -0.46795487
+18 -0.48543311
+20 -0.49803264
+22 -0.50740158
+24 -0.51454137
+26 -0.52008923
+28 -0.52446786
+30 -0.54072991
+32 -0.54214933
+34 -0.54315952
+36 -0.54387894
+38 -0.54439222
+40 -0.54475952
+42 -0.54502346
+44 -0.54521418
+46 -0.54535294
+48 -0.54545474
+50 -0.54553014
+52 -0.54558662
+54 -0.54562944
+56 -0.54566233
+58 -0.54568794
+60 -0.54570816
+62 -0.54572433
+64 -0.54573743
+66 -0.54574818
+68 -0.54575707
+70 -0.54576451
+72 -0.54577078
+74 -0.54577609
+76 -0.54578062
+78 -0.5457845
+80 -0.54578783
+82 -0.54579071
+84 -0.54579319
+86 -0.54579534
+88 -0.5457972
+90 -0.54579882
+92 -0.54580022
+94 -0.54580144
+96 -0.5458025
+98 -0.54580342
+100 -0.54580422
+102 -0.54580492
+104 -0.54580553
+106 -0.54580606
+108 -0.54580653
+110 -0.54580693
+112 -0.54580729
+114 -0.5458076
+116 -0.54580787
+118 -0.54580811
+120 -0.54580832
+122 -0.5458085
+124 -0.54580866
+126 -0.5458088
+128 -0.54580892
+130 -0.54580903
+132 -0.54580913
+134 -0.54580921
+136 -0.54580929
+138 -0.54580935
+140 -0.54580941
+142 -0.54580946
+144 -0.54580951
+146 -0.54580955
+148 -0.54580959
+150 -0.54580962
+152 -0.54580965
+154 -0.54580967
+156 -0.54580969
+158 -0.54580971
+160 -0.54580973
+162 -0.54580975
+164 -0.54580976
+166 -0.54580978
+168 -0.54580979
+170 -0.5458098
+172 -0.54580981
+174 -0.54580981
+176 -0.54580982
+178 -0.54580983
+180 -0.54580983
+182 -0.54580983
+184 -0.54580983
+186 -0.54580984
+188 -0.54580984
+190 -0.54580984
+192 -0.54580984
+194 -0.54580984
+196 -0.54580984
+198 -0.54580984
+200 -0.54580984
+&
+@target G0.S2
+@type xy
+10 -0.96478603
+12 -1.2694918
+14 -1.5239387
+16 -1.7261471
+18 -1.8795335
+20 -1.991202
+22 -2.069638
+24 -2.123003
+26 -2.1582517
+28 -2.1808666
+30 -2.2115766
+32 -2.2121453
+34 -2.2124046
+36 -2.2125836
+38 -2.2127742
+40 -2.2130006
+42 -2.2132574
+44 -2.2135297
+46 -2.2138017
+48 -2.2140609
+50 -2.2142987
+52 -2.2145107
+54 -2.214695
+56 -2.214852
+58 -2.2149836
+60 -2.2150924
+62 -2.215181
+64 -2.2152526
+66 -2.2153097
+68 -2.215355
+70 -2.2153905
+72 -2.2154182
+74 -2.2154397
+76 -2.2154562
+78 -2.2154688
+80 -2.2154784
+82 -2.2154857
+84 -2.2154911
+86 -2.2154952
+88 -2.2154982
+90 -2.2155005
+92 -2.2155021
+94 -2.2155033
+96 -2.2155042
+98 -2.2155049
+100 -2.2155053
+102 -2.2155057
+104 -2.2155059
+106 -2.2155061
+108 -2.2155063
+110 -2.2155064
+112 -2.2155065
+114 -2.2155065
+116 -2.2155066
+118 -2.2155066
+120 -2.2155067
+122 -2.2155067
+124 -2.2155067
+126 -2.2155067
+128 -2.2155068
+130 -2.2155068
+132 -2.2155068
+134 -2.2155068
+136 -2.2155068
+138 -2.2155069
+140 -2.2155069
+142 -2.2155069
+144 -2.2155069
+146 -2.2155069
+148 -2.2155069
+150 -2.2155069
+152 -2.2155069
+154 -2.2155069
+156 -2.2155069
+158 -2.2155069
+160 -2.2155069
+162 -2.2155069
+164 -2.2155069
+166 -2.2155069
+168 -2.2155069
+170 -2.2155069
+172 -2.2155069
+174 -2.2155069
+176 -2.2155069
+178 -2.2155069
+180 -2.2155069
+182 -2.2155069
+184 -2.2155069
+186 -2.2155069
+188 -2.2155069
+190 -2.2155069
+192 -2.2155069
+194 -2.215507
+196 -2.215507
+198 -2.215507
+200 -2.215507
+&
+@target G0.S3
+@type xy
+10 -2.1134282
+12 -2.1463975
+14 -2.1681841
+16 -2.18192
+18 -2.1902566
+20 -2.1951804
+22 -2.1980364
+24 -2.1996755
+26 -2.2006128
+28 -2.2011506
+30 -2.200679
+32 -2.2010127
+34 -2.2012553
+36 -2.2014338
+38 -2.2015665
+40 -2.2016659
+42 -2.2017409
+44 -2.2017979
+46 -2.2018414
+48 -2.2018748
+50 -2.2019005
+52 -2.2019205
+54 -2.201936
+56 -2.2019482
+58 -2.2019578
+60 -2.2019653
+62 -2.2019713
+64 -2.201976
+66 -2.2019798
+68 -2.2019829
+70 -2.2019853
+72 -2.2019873
+74 -2.2019889
+76 -2.2019902
+78 -2.2019913
+80 -2.2019921
+82 -2.2019928
+84 -2.2019934
+86 -2.2019939
+88 -2.2019943
+90 -2.2019946
+92 -2.2019949
+94 -2.2019951
+96 -2.2019953
+98 -2.2019955
+100 -2.2019956
+102 -2.2019957
+104 -2.2019958
+106 -2.2019959
+108 -2.2019959
+110 -2.201996
+112 -2.201996
+114 -2.2019961
+116 -2.2019961
+118 -2.2019961
+120 -2.2019962
+122 -2.2019962
+124 -2.2019962
+126 -2.2019962
+128 -2.2019962
+130 -2.2019962
+132 -2.2019962
+134 -2.2019962
+136 -2.2019963
+138 -2.2019963
+140 -2.2019963
+142 -2.2019963
+144 -2.2019963
+146 -2.2019963
+148 -2.2019963
+150 -2.2019963
+152 -2.2019963
+154 -2.2019963
+156 -2.2019963
+158 -2.2019963
+160 -2.2019963
+162 -2.2019963
+164 -2.2019963
+166 -2.2019963
+168 -2.2019963
+170 -2.2019963
+172 -2.2019963
+174 -2.2019963
+176 -2.2019963
+178 -2.2019963
+180 -2.2019963
+182 -2.2019963
+184 -2.2019963
+186 -2.2019963
+188 -2.2019963
+190 -2.2019963
+192 -2.2019963
+194 -2.2019963
+196 -2.2019963
+198 -2.2019963
+200 -2.2019963
+&

@@ -1,0 +1,198 @@
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.29)  28 AUG 2017 09:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**deuteron.tex
+(./deuteron.tex
+pLaTeX2e <2017/05/05> (based on LaTeX2e <2017-04-15>)
+Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/platex/base/jarticle.cls
+Document Class: jarticle 2017/03/05 v1.7e Standard pLaTeX class
+\c@@paper=\count82
+(/usr/local/texlive/2017/texmf-dist/tex/platex/base/jsize12.clo
+File: jsize12.clo 2017/03/05 v1.7e Standard pLaTeX file (size option)
+)
+\c@part=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@subparagraph=\count88
+\c@figure=\count89
+\c@table=\count90
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 613.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count91
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/layout.sty
+Package: layout 2014/10/28 v1.2c Show layout parameters
+\oneinch=\count92
+\cnt@paperwidth=\count93
+\cnt@paperheight=\count94
+\cnt@hoffset=\count95
+\cnt@voffset=\count96
+\cnt@textheight=\count97
+\cnt@textwidth=\count98
+\cnt@topmargin=\count99
+\cnt@oddsidemargin=\count100
+\cnt@evensidemargin=\count101
+\cnt@headheight=\count102
+\cnt@headsep=\count103
+\cnt@marginparsep=\count104
+\cnt@marginparwidth=\count105
+\cnt@marginparpush=\count106
+\cnt@footskip=\count107
+\fheight=\count108
+\ref@top=\count109
+\ref@hoffset=\count110
+\ref@voffset=\count111
+\ref@head=\count112
+\ref@body=\count113
+\ref@foot=\count114
+\ref@margin=\count115
+\ref@marginwidth=\count116
+\ref@marginpar=\count117
+\Interval=\count118
+\ExtraYPos=\count119
+\PositionX=\count120
+\PositionY=\count121
+\ArrowLength=\count122
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 99.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+))
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count123
+\float@exts=\toks16
+\float@box=\box42
+\@float@everytoks=\toks17
+\@floatcapt=\box43
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen123
+\extrarowheight=\dimen124
+\NC@list=\toks18
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+\TX@col@width=\dimen125
+\TX@old@table=\dimen126
+\TX@old@col=\dimen127
+\TX@target=\dimen128
+\TX@delta=\dimen129
+\TX@cols=\count124
+\TX@ftn=\toks19
+)
+No file deuteron.aux.
+\openout1 = `deuteron.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 25.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 25.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 25.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 25.
+
+Overfull \hbox (3.69684pt too wide) in paragraph at lines 39--40
+ [] 
+ []
+
+
+Overfull \hbox (3.69684pt too wide) in paragraph at lines 59--60
+ [] 
+ []
+
+[1
+
+]
+File: wf_numeric1.eps Graphic file (type eps)
+ <wf_numeric1.eps>
+File: wf_numeric2.eps Graphic file (type eps)
+ <wf_numeric2.eps>
+File: wf_numeric3.eps Graphic file (type eps)
+ <wf_numeric3.eps> [2]
+File: wf_numeric4.eps Graphic file (type eps)
+
+<wf_numeric4.eps>
+File: wf_SVM.eps Graphic file (type eps)
+ <wf_SVM.eps> [3]
+File: energy.eps Graphic file (type eps)
+ <energy.eps> [4]
+File: wf_ho1.eps Graphic file (type eps)
+ <wf_ho1.eps>
+File: wf_ho2.eps Graphic file (type eps)
+ <wf_ho2.eps>
+File: wf_ho3.eps Graphic file (type eps)
+
+<wf_ho3.eps> [5]
+File: wf_ho4.eps Graphic file (type eps)
+ <wf_ho4.eps>
+File: wave-fcts1.eps Graphic file (type eps)
+ <wave-fcts1.eps> [6]
+File: wave-fcts2.eps Graphic file (type eps)
+ <wave-fcts2.eps>
+File: wave-fcts3.eps Graphic file (type eps)
+
+<wave-fcts3.eps> [7]
+File: wave-fcts4.eps Graphic file (type eps)
+ <wave-fcts4.eps> [8] (./deuteron.aux) ) 
+Here is how much of TeX's memory you used:
+ 903 strings out of 493648
+ 11240 string characters out of 6148806
+ 75222 words of memory out of 5000000
+ 4523 multiletter control sequences out of 15000+600000
+ 11872 words of font info for 46 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 25i,8n,21p,203b,312s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on deuteron.dvi (8 pages, 3792 bytes).
