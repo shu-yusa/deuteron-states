@@ -2,9 +2,7 @@
 Code for exactly solving neuteron's binding states in different ways.
 
 ## Prerequisites
-A fortran compiler (e.g. gfortran) is installed.
-
-## Detail of the code
+A fortran compiler (e.g., gfortran) is installed.
 
 ## Compile and execution
 ### direct/
